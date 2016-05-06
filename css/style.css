@@ -31,7 +31,6 @@ ul {
     margin: 0 auto;
     width: 860px;
     padding: 0 20px;
-    outline: 1px solid red;
 }
 .clearfix::after {
   content: "";
@@ -57,7 +56,6 @@ ul {
     display: inline-block;
     vertical-align: top;
     padding-top: 23px;
-    outline:  1px solid red;
     margin-right: 41px;
 }
 .main_nav li {
@@ -83,7 +81,6 @@ ul {
     vertical-align: top;
     width: 265px;
     padding-top: 23px;
-    outline: 1px solid red;
 }
 .find_block,
 .enter_block,
@@ -139,7 +136,6 @@ ul {
     font-style: normal;
 }
 .global_offer {
-    outline: 1px solid red;
     margin-top: 275px;
     padding-bottom: 41px;
 }
@@ -189,7 +185,6 @@ ul {
     vertical-align: top;
     margin-bottom: 40px;
     padding: 18px 20px 0 20px;
-    outline: 1px solid red;
 }
 .offer b {
     font-size: 35px;
@@ -263,7 +258,6 @@ ul {
     padding: 5px 20px 0 20px;
     font-size: 0;
     background: #ebddbe url("../img/wafer_bg.jpg");
-    outline: 1px solid red;
 }
 .glacy_about h2 {
     margin-bottom: 9px;
@@ -460,7 +454,6 @@ ul {
     display: inline-block;
     vertical-align: top;
     width: 170px;
-    outline: 1px solid red;
 }
 .docs li a {
     font-size: 13px;
@@ -536,7 +529,6 @@ ul {
     margin: 0;
     margin: 0 16px 16px 0;
     border: none;
-    outline:  1px solid red;
 }
 .cat_head legend {
     margin-bottom: 7px;
