@@ -4,106 +4,114 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси. Каталог</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
   </head>
-  <body>
-      <header>
-          <a href="#" class="logo_link">
-              <img src="http://placehold.it/153x63" width="153" height="63" alt="GllacyShop">
-          </a>
-          <nav class="main_nav">
-              <ul>
-                  <li>
-                      <a href="#">Каталог</a>
-                      <div class="item_list">
-                          <b>Новинки</b>
-                          <ul>
-                              <li><a href="#">Сливочное</a></li>
-                              <li><a href="#">Щербеты</a></li>
-                              <li><a href="#">Фруктовый лед</a></li>
-                              <li><a href="#">Мелорин</a></li>
-                          </ul>
-                      </div>
-                  </li>
-                  <li><a href="#">Доставка и оплата</a></li>
-                  <li><a href="#">О Компании</a></li>
-              </ul>
-          </nav>
-          <div class="user_block">
-              <div class="find_block">
-                  <a href="#" class="find">Поиск</a>
-                  <form class="find_form" action="https://echo.htmlacademy.ru" method="post">
-                      <input type="text" name="find" placeholder="Что ищем?">
-                  </form>
+  <body class="catalog_html">
+      <header class="top_head">
+          <section class="container">
+              <div class="logo">
+                  <img src="img/gllacyshop.svg" width="153" height="63" alt="GllacyShop">
               </div>
-              <div class="enter_block">
-                  <a href="#" class="enter">Вход</a>
-                  <form class="enter_form" action="https://echo.htmlacademy.ru" method="post">
-                      <input type="email" name="email" placeholder="Электронная почта">
-                      <input type="password" name="password" placeholder="Пароль">
-                      <button type="submit">Войти</button>
-                  </form>
-                  <a href="#">Забыли пароль?</a>
-                  <a href="#">Новая регистрация</a>
-              </div>
-              <div class="bucket_block">
-                  <a href="#" class="bucket">Корзина <span>2 товара</span></a>
-                  <ul class="bucket_list">
-                      <li class="bucket_item">
-                          <button type="button" class="close">Х</button>
-                          <em>Пломбир с апельсиновым джемом</em>
-                          <p>1,5 кг х <span>200 руб.</span></p>
-                          <b>300 руб.</b>
+              <nav class="main_nav">
+                  <ul>
+                      <li class="active">
+                          <a href="#">Каталог</a>
+                          <div class="item_list">
+                              <b>Новинки</b>
+                              <ul>
+                                  <li><a href="#">Сливочное</a></li>
+                                  <li><a href="#">Щербеты</a></li>
+                                  <li><a href="#">Фруктовый лед</a></li>
+                                  <li><a href="#">Мелорин</a></li>
+                              </ul>
+                          </div>
                       </li>
-                      <li class="bucket_item">
-                          <button type="button" class="close">Х</button>
-                          <em>Клубничный пломбир с присыпкой из белого шоколада</em>
-                          <p>1,5 кг х<span>300 руб.</span></p>
-                          <b>450 руб.</b>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">О Компании</a></li>
+                  </ul>
+              </nav>
+              <div class="user_block">
+                  <ul>
+                      <li>
+                          <a href="#" class="find">Поиск</a>
+                          <div class="find_block">
+                              <form class="find_form" action="https://echo.htmlacademy.ru" method="post">
+                                  <input type="text" name="find" placeholder="Что ищем?">
+                              </form>
+                          </div>
+                      </li>
+                      <li>
+                          <a href="#" class="enter">Вход</a>
+                          <div class="enter_block">
+                              <form class="enter_form" action="https://echo.htmlacademy.ru" method="post">
+                                  <input type="email" name="email" placeholder="Электронная почта">
+                                  <input type="password" name="password" placeholder="Пароль">
+                                  <button type="submit">Войти</button>
+                              </form>
+                              <a href="#">Забыли пароль?</a>
+                              <a href="#">Новая регистрация</a>
+                          </div>
+                      </li>
+                      <li>
+                          <a href="#" class="bucket">Пусто</a>
+                          <div class="bucket_block">
+                              <ul class="bucket_list">
+                                  <li class="bucket_item">
+                                      <button type="button" class="close">Х</button>
+                                      <em>Пломбир с апельсиновым джемом</em>
+                                      <p>1,5 кг х <span>200 руб.</span></p>
+                                      <b>300 руб.</b>
+                                  </li>
+                                  <li class="bucket_item">
+                                      <button type="button" class="close">Х</button>
+                                      <em>Клубничный пломбир с присыпкой из белого шоколада</em>
+                                      <p>1,5 кг х<span>300 руб.</span></p>
+                                      <b>450 руб.</b>
+                                  </li>
+                              </ul>
+                              <span>Итого: 750 руб.</span>
+                              <a href="#" class="checkout">Оформить заказ</a>
+                          </div>
                       </li>
                   </ul>
-                  <span>Итого: 750 руб.</span>
-                  <a href="#" class="checkout">Оформить заказ</a>
+                  <b>С 10 до 20, ежедневно</b>
+                  <em>8 812 450-25-25</em>
               </div>
-              <b>С 10 до 20, ежедневно</b>
-              <em>8 812 450-25-25</em>
-          </div>
+          </section>
       </header>
-      <main class="catalog_icecream">
+      <main class="catalog_icecream container">
           <section class="cat_head">
-              <p><a href="#">Главная</a></p>
-              <p><a href="#">Каталог</a></p>
+              <p><a href="#">Главная</a> »</p>
+              <p><a href="#">Каталог</a> »</p>
               <p>Сливочное</p>
               <h1>Сливочное мороженое</h1>
-              <div class="sort">
-                  <b>Сортировка:</b>
+              <fieldset class="sort" form="main_form">
+                  <legend>Сортировка:</legend>
                   <ul class="cat_forms">
                       <li>по популярности</li>
                   </ul>
-              </div class="price_range">
-              <div>
-                  <b>Цена: 100 руб. – 500 руб.</b>
+              </fieldset>
+              <fieldset class="price_range" form="main_form">
+                  <legend>Цена: <span class="min_price">100 руб.</span> – <span class="max_price">500 руб.</span></legend>
                   <div class="cat_forms"></div>
-              </div>
-              <div class="fat">
-                  <b>Жирность:</b>
-                  <form class="cat_forms" action="https://echo.htmlacademy.ru" method="post">
-                      <label>
-                          <input type="radio" name="fatcheck" value="0">0%
-                      </label>
-                      <label>
-                          <input type="radio" name="fatcheck" value="lessthan10">до 10%
-                      </label>
-                      <label>
-                          <input type="radio" name="fatcheck" value="lessthan30">до 30%
-                      </label>
-                      <label>
-                          <input type="radio" name="fatcheck" value="morethan30">выше 30%
-                      </label>
-                  </form>
-              </div>
-              <div class="fillers">
+              </fieldset>
+              <fieldset class="fat" form="main_form">
+                  <legend>Жирность:</legend>
+                  <label>
+                      <input type="radio" name="fatcheck" value="0">0%
+                  </label>
+                  <label>
+                      <input type="radio" name="fatcheck" value="lessthan10">до 10%
+                  </label>
+                  <label>
+                      <input type="radio" name="fatcheck" value="lessthan30">до 30%
+                  </label>
+                  <label>
+                      <input type="radio" name="fatcheck" value="morethan30">выше 30%
+                  </label>
+              </fieldset>
+              <form class="fillers" id="main_form" action="https://echo.htmlacademy.ru" method="post">
                   <b>Наполнители:</b>
-                  <form class="cat_forms" action="https://echo.htmlacademy.ru" method="post">
                       <label>
                           <input type="checkbox" name="fillcheck" value="chocolate">шоколадные
                       </label>
@@ -119,9 +127,8 @@
                       <label>
                           <input type="checkbox" name="fillcheck" value="jam">джемы
                       </label>
-                  </form>
-              </div>
-              <button class="cat_forms">Применить</button>
+                      <button class="cat_forms">Применить</button>
+              </form>
           </section>
           <section class="cat_look">
               <figure class="ice_photo photo1">
@@ -197,7 +204,7 @@
               </div>
           </section>
       </main>
-      <footer class="main-footer">
+      <footer class="main-footer container">
           <div class="social_wrap">
               <ul>
                   <li>

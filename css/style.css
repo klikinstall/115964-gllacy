@@ -4,10 +4,13 @@ body {
     color: #fff;
     font-weight: normal;
     font-family: "Arial", sans-serif;
+    background: #849d8f;
+    padding: 0;
+    margin: 0;
 }
 h1 {
-    font-size: 35px;
-    line-height: 41px;
+    font-size: 60px;
+    line-height: 60px;
     color: #fff;
     font-weight: normal;
     font-family: "Arial", sans-serif;
@@ -18,4 +21,520 @@ h2 {
     color: #000;
     font-weight: normal;
     font-family: "Arial", sans-serif;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.container {
+    margin: 0 auto;
+    width: 860px;
+    padding: 0 20px;
+    outline: 1px solid red;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top_head .container{
+    background: url("../img/icecream_main_bg.png") no-repeat;
+    font-size: 0;
+}
+.top_head .logo {
+    width: 153px;
+    height: 63px;
+    margin: 0 19px 0 -5px;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.item_list {
+    display: none;
+}
+.main_nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 23px;
+    outline:  1px solid red;
+    margin-right: 41px;
+}
+.main_nav li {
+    display: inline-block;
+    vertical-align: top;
+}
+.main_nav li:last-child {
+    margin-right: 0;
+}
+.main_nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 7px 13px 7px 14px;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.top_head .user_block {
+    display: inline-block;
+    vertical-align: top;
+    width: 265px;
+    padding-top: 23px;
+    outline: 1px solid red;
+}
+.find_block,
+.enter_block,
+.bucket_block {
+    display: none;
+}
+.user_block {
+    text-align: right;
+}
+.user_block li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6px;
+}
+.user_block li:last-child {
+    margin-right: 0;
+}
+.user_block a{
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    text-decoration: none;
+}
+.user_block .find {
+    width: 32px;
+}
+.user_block .enter {
+    padding-left: 44px;
+    padding-right: 16px;
+}
+.user_block .bucket {
+    padding-left: 45px;
+    padding-right: 34px;
+}
+.user_block b {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    text-align: right;
+}
+.user_block em {
+    font-size: 22px;
+    line-height: 24px;
+    font-style: normal;
+}
+.global_offer {
+    outline: 1px solid red;
+    margin-top: 275px;
+    padding-bottom: 41px;
+}
+.global_offer h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+}
+.paginator {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+.paginator li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+    height:21px;
+}
+.paginator li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+.paginator .active {
+    background: #fff;
+}
+.global_offer .taketwo {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    margin-top: -18px;
+    margin-left: 241px;
+    padding: 10px 42px;
+    color: #fff;
+    font-size: 32px;
+    line-height: 44px;
+    background: #ef5f3f;
+}
+.act_offers {
+    font-size: 0;
+}
+.offer {
+    width: 380px;
+    height: 211px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 40px;
+    padding: 18px 20px 0 20px;
+    outline: 1px solid red;
+}
+.offer b {
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: bold;
+    color:#fff;
+}
+.offer p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    color:#fff;
+}
+.offer a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    background: #f06241;
+    padding: 10px 25px 10px 22px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.l_offer {
+    margin-right: 20px;
+    background: #b30a2b url("../img/raspberry_bg.jpg") no-repeat;
+}
+.r_offer {
+    background: #43281d url("../img/chocolate_bg.jpg") no-repeat;
+}
+.act_prices {
+    margin-bottom: 40px;
+}
+.act_prices ul {
+    font-size: 0;
+}
+.act_prices li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    width:200px;
+}
+.act_prices li:last-child{
+    margin-right: 0;
+}
+.act_prices em {
+    font-size: 45px;
+    line-height: 45px;
+    color: #000;
+}
+.act_prices b {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+.act_prices p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+.other_info {
+    margin-bottom: 40px;
+    font-size: 0;
+}
+.glacy_about {
+    width: 820px;
+    height: 367px;
+    margin-bottom: 40px;
+    padding: 5px 20px 0 20px;
+    font-size: 0;
+    background: #ebddbe url("../img/wafer_bg.jpg");
+    outline: 1px solid red;
+}
+.glacy_about h2 {
+    margin-bottom: 9px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #323232;
+}
+.glacy_about p {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 343px;
+    margin-top: 1px;
+    padding: 12px 0 0 56px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+
+}
+.glacy_about p:nth-of-type(1) {
+    margin-bottom: 11px;
+    background: url("../img/icecream_icon.svg") no-repeat;
+}
+.glacy_about p:nth-of-type(2) {
+    margin-bottom: 11px;
+    background: url("../img/cow_icon.svg") no-repeat;
+}
+.glacy_about p:nth-of-type(3) {
+    background: url("../img/leaf_icon.svg") no-repeat;
+}
+.glacy_about p:nth-of-type(4) {
+    background: url("../img/thermometer_icon.svg") no-repeat;
+}
+.glacy_about p:nth-of-type(2n-1) {
+    margin-right: 20px;
+}
+.blog_news {
+    display: inline-block;
+    vertical-align: top;
+    width: 380px;
+    height: 196px;
+    margin-right: 20px;
+    padding: 24px 20px 0 20px;
+    background: #fff url("../img/strawberry_bg.jpg") no-repeat;
+}
+.blog_news b {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #5a5a5a;
+}
+.blog_news a {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #353535;
+}
+.newsletter {
+    display: inline-block;
+    vertical-align: top;
+    width: 410px;
+    height: 210px;
+    padding: 5px;
+    background: #fff url("../img/envelope_bg.jpg") no-repeat;
+}
+.white_bg {
+    height: 180px;
+    padding: 30px 20px 0 20px;
+    background: #f8f7f4;
+}
+.newsletter p {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5a5a5a;
+}
+.newsletter-form input{
+    width: 224px;
+    height: 38px;
+    margin-right: 11px;
+}
+.newsletter-form button {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    padding: 9px 11px 9px 12px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #fefefe;
+    background: #e95138;
+}
+.glacy_map.container {
+    padding: 62px 0 0 0;
+    width: 900px;
+    height: 368px;
+}
+.glacy_map {
+    background: #e0dccf url("../img/map_bg.jpg") no-repeat;
+}
+.glacy_map .address {
+    width: 250px;
+    height: 278px;
+    margin-left: 578px;
+    padding: 28px 26px 0 26px;
+    background: #fefefe;
+}
+.glacy_map .address p {
+    display: block;
+    width: 173px;
+    margin: 0 0 3px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #323232;
+    font-weight: normal;
+}
+.glacy_map .address b {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #323232;
+}
+.glacy_map .address b:nth-of-type(1) {
+    margin-bottom: 18px;
+}
+.glacy_map .address b:nth-of-type(2) {
+    margin-bottom: 1px;
+}
+.glacy_map .address p:nth-of-type(2) {
+    margin-bottom: 6px;
+}
+.glacy_map .address p:nth-of-type(3) {
+    margin-bottom: 25px;
+}
+.glacy_map .address a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 10px 24px 10px 32px ;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fefefe;
+    background: #e84d37;
+}
+.main-footer {
+    padding: 19px 0 8px 0;
+    font-size: 0;
+}
+.social_wrap,
+.docs,
+.copyright {
+    display: inline-block;
+    vertical-align: top;
+}
+.social_wrap {
+    margin: 19px 72px 0 0;
+    margin-right: 72px;
+}
+.social_wrap li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 11px;
+}
+.social_wrap li:last-child {
+    margin-right: 0;
+}
+.social_wrap li a {
+    display: block;
+    width: 31px;
+    height: 31px;
+    border: 3px solid #c5d0ca;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social_wrap li:first-child a {
+    background: url("../img/twitter.svg") no-repeat;
+}
+.social_wrap li:nth-child(2) a {
+    background: url("../img/instagram.svg") no-repeat;
+}
+.social_wrap li:nth-child(3) a {
+    background: url("../img/facebook.svg") no-repeat;
+}
+.social_wrap li:nth-child(4) a {
+    background: url("../img/vkontakte.svg") no-repeat;
+}
+.docs {
+    width: 340px;
+    margin: 15px 75px 0 0;
+}
+.docs li {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    outline: 1px solid red;
+}
+.docs li a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+}
+.docs li:first-child a {
+    font-weight: bold;
+}
+.copyright p {
+    margin-top: -4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fefefe;
+}
+.copyright p a {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fefefe;
+}
+
+/*Стили для catalog.html*/
+.catalog_html {
+    background: #849d8f url("../img/backlight.png") no-repeat 50% 0;
+}
+.catalog_html .top_head .container {
+    background: transparent none;
+}
+.main_nav .active a {
+    background: #d07058;
+    border-bottom: none;
+}
+.catalog_icecream {
+    margin-top: -23px;
+}
+.cat_head {
+    font-size: 0;
+}
+.cat_head p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+.cat_head p a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+.cat_head h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 35px;
+    line-height: 41px;
+    color: #fff;
+    font-weight: bold;
+}
+.sort,
+.price_range,
+.fat,
+.fillers {
+    display: inline-block;
+    vertical-align: top;
+}
+.cat_head fieldset {
+    margin: 0;
+    border: none;
+    outline:  1px solid red;
+}
+.cat_head legend {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
 }
