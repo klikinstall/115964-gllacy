@@ -498,11 +498,13 @@ ul {
 }
 .cat_head {
     font-size: 0;
+    margin-bottom: 39px;
 }
 .cat_head p{
     display: inline-block;
     vertical-align: top;
     margin: 0;
+    margin-right: 7px;
     font-size: 14px;
     line-height: 16px;
     color: #fff;
@@ -524,17 +526,129 @@ ul {
 .sort,
 .price_range,
 .fat,
-.fillers {
+.fillers,
+.fillers .cat_forms,
+.fillers button{
     display: inline-block;
     vertical-align: top;
 }
 .cat_head fieldset {
     margin: 0;
+    margin: 0 16px 16px 0;
     border: none;
     outline:  1px solid red;
 }
 .cat_head legend {
+    margin-bottom: 7px;
     font-size: 14px;
     line-height: 16px;
     color: #fff;
+}
+.cat_head label {
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+.cat_head button {
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+.cat_head li {
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+.cat_forms {
+    background: rgba(248, 247, 244, 0.2);
+}
+.sort .cat_forms li{
+    padding: 10px 50px 9px 16px;
+}
+.price_range .cat_forms {
+    width: 219px;
+    height: 36px;
+}
+.fat .cat_forms {
+    padding: 8px 15px 3px 15px;
+}
+.fat .cat_forms label {
+    margin-right: 20px;
+}
+.fat .cat_forms label:last-child {
+    margin-right: 0;
+}
+.fillers b {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+.fillers label {
+    margin-right: 19px;
+}
+.fillers label:last-child {
+    margin-right: 0;
+}
+.fillers .cat_forms {
+    padding: 8px 15px 3px 15px;
+    margin-right: 14px;
+}
+.fillers button.cat_forms {
+    border: none;
+    padding: 8px 15px 6px 15px;
+}
+.cat_look {
+    font-size: 0;
+    padding-bottom: 30px;
+}
+.ice_photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 0;
+    margin-right: 20px;
+}
+.ice_photo:nth-child(4n) {
+    margin-right: 0;
+}
+.ice_photo b {
+    display: block;
+    margin-top: -55px;
+    margin-bottom: 43px;
+    font-size: 45px;
+    line-height: 13px;
+    color: #fff;
+}
+.ice_photo p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+}
+.cat_look .paginator {
+    display: block;
+    margin-top: 82px;
+    text-align: right;
+}
+.cat_look .paginator li {
+    margin-right: 3px;
+}
+.cat_look .paginator li a {
+    width: 26px;
+    height: 21px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.cat_look .paginator li .active {
+    color: #353535;
+    background: #fff;
+}
+.cat_look .paginator .prev {
+    color: rgba(255, 255, 255, 0.2);
 }

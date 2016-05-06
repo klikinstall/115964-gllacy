@@ -83,7 +83,7 @@
           <section class="cat_head">
               <p><a href="#">Главная</a> »</p>
               <p><a href="#">Каталог</a> »</p>
-              <p>Сливочное</p>
+              <p><a>Сливочное</a></p>
               <h1>Сливочное мороженое</h1>
               <fieldset class="sort" form="main_form">
                   <legend>Сортировка:</legend>
@@ -97,21 +97,24 @@
               </fieldset>
               <fieldset class="fat" form="main_form">
                   <legend>Жирность:</legend>
-                  <label>
-                      <input type="radio" name="fatcheck" value="0">0%
-                  </label>
-                  <label>
-                      <input type="radio" name="fatcheck" value="lessthan10">до 10%
-                  </label>
-                  <label>
-                      <input type="radio" name="fatcheck" value="lessthan30">до 30%
-                  </label>
-                  <label>
-                      <input type="radio" name="fatcheck" value="morethan30">выше 30%
-                  </label>
+                  <div class="cat_forms">
+                      <label>
+                          <input type="radio" name="fatcheck" value="0">0%
+                      </label>
+                      <label>
+                          <input type="radio" name="fatcheck" value="lessthan10">до 10%
+                      </label>
+                      <label>
+                          <input type="radio" name="fatcheck" value="lessthan30">до 30%
+                      </label>
+                      <label>
+                          <input type="radio" name="fatcheck" value="morethan30">выше 30%
+                      </label>
+                  </div>
               </fieldset>
               <form class="fillers" id="main_form" action="https://echo.htmlacademy.ru" method="post">
                   <b>Наполнители:</b>
+                  <div class="cat_forms">
                       <label>
                           <input type="checkbox" name="fillcheck" value="chocolate">шоколадные
                       </label>
@@ -127,73 +130,98 @@
                       <label>
                           <input type="checkbox" name="fillcheck" value="jam">джемы
                       </label>
-                      <button class="cat_forms">Применить</button>
+                  </div>
+                  <button type="submit" class="cat_forms">Применить</button>
               </form>
           </section>
           <section class="cat_look">
               <figure class="ice_photo photo1">
-                  <img src="img/icecream_hit1.jpg" width="200" height="200" alt="icecream1" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit1.jpg" width="200" height="200" alt="icecream1" />
+                  </div>
                   <b>310 р/кг</b>
                   <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
               </figure>
               <figure class="ice_photo photo2">
-                  <img src="img/icecream_hit2.jpg" width="200" height="200" alt="icecream2" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit2.jpg" width="200" height="200" alt="icecream2" />
+                  </div>
                   <b>380 р/кг</b>
                   <p>Сливочно-кофейное с кусочками шоколада</p>
               </figure>
               <figure class="ice_photo photo3">
-                  <img src="img/icecream_hit3.jpg" width="200" height="200" alt="icecream3" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit3.jpg" width="200" height="200" alt="icecream3" />
+                  </div>
                   <b>355 р/кг</b>
                   <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
               </figure>
               <figure class="ice_photo photo4">
-                  <img src="img/icecream_hit4.jpg" width="200" height="200" alt="icecream4" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit4.jpg" width="200" height="200" alt="icecream4" />
+                  </div>
                   <b>415 р/кг</b>
                   <p>Сливочное крем-брюле с карамельной подливкой</p>
               </figure>
               <figure class="ice_photo photo5">
-                  <img src="img/icecream_hit5.jpg" width="200" height="200" alt="icecream5" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit5.jpg" width="200" height="200" alt="icecream5" />
+                  </div>
                   <b>325 р/кг</b>
                   <p>Сливочное с брусничным джемом</p>
               </figure>
               <figure class="ice_photo photo6">
-                  <img src="img/icecream_hit6.jpg" width="200" height="200" alt="icecream6" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit6.jpg" width="200" height="200" alt="icecream6" />
+                  </div>
                   <b>410 р/кг</b>
                   <p>Сливочно-черничное с цельными ягодами черники </p>
               </figure>
               <figure class="ice_photo photo7">
-                  <img src="img/icecream_hit7.jpg" width="200" height="200" alt="icecream7" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit7.jpg" width="200" height="200" alt="icecream7" />
+                  </div>
                   <b>375 р/кг</b>
                   <p>Сливочно-лимонное с карамельной присыпкой</p>
               </figure>
               <figure class="ice_photo photo8">
-                  <img src="img/icecream_hit8.jpg" width="200" height="200" alt="icecream8" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit8.jpg" width="200" height="200" alt="icecream8" />
+                  </div>
                   <b>320 р/кг</b>
                   <p>Сливочное с шоколадной стружкой</p>
               </figure>
               <figure class="ice_photo photo9">
-                  <img src="img/icecream_hit9.jpg" width="200" height="200" alt="icecream9" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit9.jpg" width="200" height="200" alt="icecream9" />
+                  </div>
                   <b>440 р/кг</b>
                   <p>Сливочно-ванильное с кусочками шоколада</p>
               </figure>
               <figure class="ice_photo photo10">
-                  <img src="img/icecream_hit10.jpg" width="200" height="200" alt="icecream10" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit10.jpg" width="200" height="200" alt="icecream10" />
+                  </div>
                   <b>435 р/кг</b>
                   <p>Сливочноe с ментоловым сиропом</p>
               </figure>
               <figure class="ice_photo photo11">
-                  <img src="img/icecream_hit11.jpg" width="200" height="200" alt="icecream11" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit11.jpg" width="200" height="200" alt="icecream11" />
+                  </div>
                   <b>355 р/кг</b>
                   <p>Сливочное с кусочками черного шоколада</p>
               </figure>
               <figure class="ice_photo photo12">
-                  <img src="img/icecream_hit12.jpg" width="200" height="200" alt="icecream12" />
+                  <div class="ice_wrap">
+                      <img src="img/icecream_hit12.jpg" width="200" height="200" alt="icecream12" />
+                  </div>
                   <b>420 р/кг</b>
                   <p>Сливочное с мятным сиропом</p>
               </figure>
               <div class="paginator">
                   <ul>
-                      <li><a href="#" class="page prev">&lt;</a></li>
+                      <li><a class="page prev">&lt;</a></li>
                       <li><a href="#" class="page active">1</a></li>
                       <li><a href="#" class="page">2</a></li>
                       <li><a href="#" class="page">3</a></li>
@@ -230,7 +258,7 @@
               </ul>
           </div>
           <div class="copyright">
-              <img src="http://placehold.it/108x37" width="108" height="37" alt="HTMLAcademy">
+              <img src="img/htmlacademy_logo.svg" width="108" height="37" alt="HTMLAcademy">
               <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> &copy; 2016</p>
           </div>
       </footer>
